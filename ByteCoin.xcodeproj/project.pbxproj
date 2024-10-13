@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0400BD582CBC4ED5007F54F6 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400BD572CBC4ED5007F54F6 /* CoinData.swift */; };
+		041A1EF02CBC54F20051A764 /* VC+CoinManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A1EEF2CBC54F20051A764 /* VC+CoinManagerDelegate.swift */; };
+		041A1EF42CBC55380051A764 /* VC+PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A1EF32CBC55380051A764 /* VC+PickerView.swift */; };
 		ADA8AC092329367100626376 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8AC082329367100626376 /* AppDelegate.swift */; };
 		ADA8AC0B2329367100626376 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8AC0A2329367100626376 /* SceneDelegate.swift */; };
 		ADA8AC0D2329367100626376 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8AC0C2329367100626376 /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0400BD572CBC4ED5007F54F6 /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		041A1EEF2CBC54F20051A764 /* VC+CoinManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+CoinManagerDelegate.swift"; sourceTree = "<group>"; };
+		041A1EF32CBC55380051A764 /* VC+PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+PickerView.swift"; sourceTree = "<group>"; };
 		ADA8AC052329367100626376 /* ByteCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ByteCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA8AC082329367100626376 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADA8AC0A2329367100626376 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041A1EEE2CBC54C90051A764 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				041A1EEF2CBC54F20051A764 /* VC+CoinManagerDelegate.swift */,
+				041A1EF32CBC55380051A764 /* VC+PickerView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		ADA8ABFC2329367100626376 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +96,7 @@
 		ADA8AC1D2329370700626376 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				041A1EEE2CBC54C90051A764 /* Extensions */,
 				ADA8AC0C2329367100626376 /* ViewController.swift */,
 			);
 			path = Controller;
@@ -90,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				ADA8AC1F2329398300626376 /* CoinManager.swift */,
+				0400BD572CBC4ED5007F54F6 /* CoinData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,8 +182,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041A1EF02CBC54F20051A764 /* VC+CoinManagerDelegate.swift in Sources */,
 				ADA8AC202329398300626376 /* CoinManager.swift in Sources */,
 				ADA8AC0D2329367100626376 /* ViewController.swift in Sources */,
+				041A1EF42CBC55380051A764 /* VC+PickerView.swift in Sources */,
+				0400BD582CBC4ED5007F54F6 /* CoinData.swift in Sources */,
 				ADA8AC092329367100626376 /* AppDelegate.swift in Sources */,
 				ADA8AC0B2329367100626376 /* SceneDelegate.swift in Sources */,
 			);
